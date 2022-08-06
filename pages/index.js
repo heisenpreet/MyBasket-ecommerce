@@ -1,6 +1,5 @@
-import Head from "next/head";
 import React from "react";
-import { Product, HeroBanner, FooterBanner } from "../components";
+import { Product, HeroBanner, FooterBanner } from "../components/index.js";
 import { client } from "../lib/client";
 export default function Home({ products, bannerData }) {
   return (
